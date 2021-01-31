@@ -4,7 +4,6 @@ import styles from '../styles/Home.module.css';
 
 const Home = () => {
   const auth = useAuth();
-  console.log(auth.user);
   return (
     <div className={styles.container}>
       <Head>
